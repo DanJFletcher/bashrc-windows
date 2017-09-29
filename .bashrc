@@ -30,6 +30,9 @@ alias sync-bashrc="cd ~/.bash && git pull origin master && git push origin maste
 # Quick commit .bashrc changes
 alias commit-bashrc="cd ~/.bash && git add . && git commit -m 'Upadate .bashrc' && cd -";
 
+# Source .bash_profile (which sources this file)
+alias so="source ~/.bash_profile";
+
 # -------------------------------------
 # Laravel aliases
 # -------------------------------------
