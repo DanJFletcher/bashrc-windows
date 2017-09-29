@@ -21,6 +21,9 @@ alias z-laragon="cd /c/laragon/www";
 # Switch to Homestead directory
 alias z-homestead="cd ~/Homestead";
 
+# Vim into .bashrc
+alias bashrc="vim ~/.bash/.bashrc";
+
 # -------------------------------------
 # Laravel aliases
 # -------------------------------------
