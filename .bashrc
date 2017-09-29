@@ -16,7 +16,10 @@ alias c="clear";
 #
 
 # Switch to laragon www directory
-alias laragon="cd /c/laragon/www";
+alias z-laragon="cd /c/laragon/www";
+
+# Switch to Homestead directory
+alias z-homestead="cd ~/Homestead";
 
 # -------------------------------------
 # Laravel aliases
