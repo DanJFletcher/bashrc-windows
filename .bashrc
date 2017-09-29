@@ -24,6 +24,12 @@ alias z-homestead="cd ~/Homestead";
 # Vim into .bashrc
 alias bashrc="vim ~/.bash/.bashrc";
 
+# Sync .bashrc with master
+alias sync-bashrc="cd ~/.bash && git pull origin master && git push origin master && cd -";
+
+# Quick commit .bashrc changes
+alias commit-bashrc="cd ~/.bash && git add . && git commit -m 'Upadate .bashrc' && cd -";
+
 # -------------------------------------
 # Laravel aliases
 # -------------------------------------
