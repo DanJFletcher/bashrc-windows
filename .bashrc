@@ -18,6 +18,9 @@ alias c="clear";
 # Switch to laragon www directory
 alias z-laragon="cd /c/laragon/www";
 
+# Switch to batcave
+alias z-batcave="cd ~/batcave";
+
 # Switch to Homestead directory
 alias z-homestead="cd ~/Homestead";
 
